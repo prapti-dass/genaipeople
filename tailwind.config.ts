@@ -62,14 +62,15 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
-        cyan: {
-          400: "hsl(187 100% 60%)",
-          500: "hsl(187 100% 50%)",
-          600: "hsl(187 100% 40%)",
+        bronze: {
+          400: "hsl(30 52% 62%)",
+          500: "hsl(30 52% 52%)",
+          600: "hsl(30 52% 42%)",
         },
-        neon: {
-          pink: "hsl(330 100% 59%)",
-          cyan: "hsl(187 100% 50%)",
+        rust: {
+          400: "hsl(30 52% 41%)",
+          500: "hsl(30 52% 31%)",
+          600: "hsl(30 52% 21%)",
         },
       },
       borderRadius: {
@@ -99,8 +100,8 @@ export default {
           "100%": { transform: "scale(1)", opacity: "1" },
         },
         "pulse-glow": {
-          "0%, 100%": { boxShadow: "0 0 15px hsl(187 100% 50% / 0.3)" },
-          "50%": { boxShadow: "0 0 25px hsl(187 100% 50% / 0.5)" },
+          "0%, 100%": { boxShadow: "0 0 10px hsl(30 52% 52% / 0.2)" },
+          "50%": { boxShadow: "0 0 18px hsl(30 52% 52% / 0.35)" },
         },
         "dot-pulse": {
           "0%, 100%": { opacity: "1" },
